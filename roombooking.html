@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Room Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Hotel Room Booking Form</h1>
+
+<form>
+
+<label>Full Name:</label><br>
+<input type="text" placeholder="Enter your name"><br><br>
+
+<label>Email:</label><br>
+<input type="email" placeholder="Enter your email"><br><br>
+
+<label>Phone Number:</label><br>
+<input type="tel" placeholder="Enter phone number"><br><br>
+
+<label>Check-in Date:</label><br>
+<input type="date"><br><br>
+
+<label>Check-out Date:</label><br>
+<input type="date"><br><br>
+
+<label>Room Type:</label><br>
+<select>
+    <option>Single Room</option>
+    <option>Double Room</option>
+    <option>Deluxe Room</option>
+    <option>Suite</option>
+</select><br><br>
+
+<label>Number of Guests:</label><br>
+<input type="number" min="1" max="10"><br><br>
+
+<label>Facilities Required:</label><br>
+<input type="checkbox"> AC
+<input type="checkbox"> WiFi
+<input type="checkbox"> Breakfast
+<input type="checkbox"> Parking
+<br><br>
+
+<label>Payment Method:</label><br>
+<input type="radio" name="pay"> Credit Card
+<input type="radio" name="pay"> Debit Card
+<input type="radio" name="pay"> Cash
+<br><br>
+
+<label>Special Requests:</label><br>
+<textarea rows="4" cols="40" placeholder="Write your request here..."></textarea>
+<br><br>
+
+<button type="submit">Book Now</button>
+<button type="reset">Clear</button>
+
+</form>

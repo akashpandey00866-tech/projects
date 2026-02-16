@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1{
+    background-color: navy;
+    color: white;
+    padding: 12px;
+}
+
+/* GRID MAIN PART */
+.container{
+    display: grid;
+
+    /* Magic line (responsive banati hai) */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Boxes */
+.box{
+    background-color: white;
+    padding: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+}
